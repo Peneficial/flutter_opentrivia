@@ -39,7 +39,7 @@ class _QuizOptionsDialogState extends State<QuizOptionsDialog> {
             color: Colors.grey.shade200,
             child: Text(
               widget.category!.name,
-              style: Theme.of(context).textTheme.headline6!.copyWith(),
+              style: Theme.of(context).textTheme.titleLarge!.copyWith(),
             ),
           ),
           SizedBox(height: 10.0),
