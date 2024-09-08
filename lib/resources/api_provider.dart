@@ -7,7 +7,7 @@ import 'package:opentrivia/models/question.dart';
 const String baseUrl = "https://opentdb.com/api.php";
 
 Future<List<Question>> getQuestions(Category category, int? total, String? difficulty) async {
-  String url = "$baseUrl?amount=$total&category=${category.id}";
+  String url = "$baseUrl?amount=$total&category=17";
   if(difficulty != null) {
     url = "$url&difficulty=$difficulty";
   }
